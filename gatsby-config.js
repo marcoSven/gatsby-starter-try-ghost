@@ -28,12 +28,12 @@ try {
 } catch (e) {
     ghostConfig = {
         development: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: `https://ghostwriterdev.bettinalimaco.com`,
+            contentApiKey: `5758d17912337075a6cbe6000f`,
         },
         production: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: `https://ghostwriterdev.bettinalimaco.com`,
+            contentApiKey: `5758d17912337075a6cbe6000f`,
         },
     }
 } finally {
